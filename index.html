@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Tyler Nguyen</title>
@@ -18,7 +13,7 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
+					<!-- <header id="header" class="alt">
 						<h1><a href="index.html">Tyler Nguyen</a></h1>
 						<nav id="nav">
 							<ul>
@@ -36,18 +31,26 @@
 								</li>
 							</ul>
 						</nav>
-					</header>
+					</header> -->
 
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Tyler Nguyen</h2>
-							<p>Another fine responsive<br />
-							site template freebie<br />
-							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">Activate</a></li>
+							<div class="selfie-banner">
+								<div class="selfie-container">
+									<img src="./images/tyler.JPG" alt="">
+								</div>
+							</div>
+							<!-- <p><img src="./images/tyler.JPG" alt=""></p> -->
+							<h2 id="name">Tyler Nguyen</h2>
+							<p>Hey there. <br>I'm a web developer.</p>
+							<ul class="icons major">
+								<li><a href="https://github.com/nguyntyler" target="_blank" class="icon brands fa-github major"><span class="label">GitHub</span></a></li>
+								<li><a href="https://linkedin.com/in/nguyntyler" target="_blank" class="icon brands fa-linkedin major"><span class="label">LinkedIn</span></a></li>
 							</ul>
+							<!-- <ul class="actions special">
+								<li><a href="#" class="button primary">Activate</a></li>
+							</ul> -->
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
@@ -56,29 +59,52 @@
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Skillset</h2>
+								<h2>
+									<i class="far fa-circle"></i>
+									Skillset
+									<i class="far fa-circle"></i>
+								</h2>
 								<!-- <p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
 								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p> -->
 							</header>
 							<ul class="icons major">
-								<li><span class="icon fa-html5 brands major style3"><span class="label">HTML5</span></span></li>
-								<li><span class="icon fa-css3-alt brands major style2"><span class="label">CSS3</span></span></li>
-								<li><span class="icon fa-js-square brands major style1"><span class="label">JS</span></span></li>
-								<li><span class="icon fa-python brands major style2"><span class="label">Python</span></span></li>
-								<li><span class="icon fa-react brands major style3"><span class="label">React</span></span></li>
-								<li><span class="icon fa-npm brands major style1"><span class="label">NPM</span></span></li>
-								<li><span class="icon fa-sass brands major style3"><span class="label">Sass</span></span></li>
+								<li><span class="icon fa-html5 brands major style4"><span class="label">HTML5</span></span><h6 id="skill-name">HTML5</h6></li>
+								<li><span class="icon fa-css3-alt brands major style4"><span class="label">CSS3</span></span><h6 id="skill-name">CSS3</h6></li>
+								<li><span class="icon fa-js-square brands major style4"><span class="label">JS</span></span><h6 id="skill-name">JS</h6></li>
+								<li><span class="icon fa-python brands major style4"><span class="label">Python</span></span><h6 id="skill-name">Python</h6></li>
+								<li><span class="icon fa-react brands major style4"><span class="label">React</span></span><h6 id="skill-name">React</h6></li>
+								<li><span class="icon fa-npm brands major style4"><span class="label">NPM</span></span><h6 id="skill-name">NPM</h6></li>
+								<li><span class="icon fa-sass brands major style4"><span class="label">SASS</span></span><h6 id="skill-name">SASS</h6></li>
 							</ul>
-							<ul class="icons major">
-								<li>ExpressJS</li>
-								<li><span class="icon fa-node brands major style2"><span class="label">NodeJS</span></span></li>
-								<li>PostgreSQL</li>
+							<ul class="icons major" id="second-row-skills">
+								<!-- <li class="icon style4 major custom-skill-container"></li> -->
+								<li>
+									<span class="icon brands major style4" id="custom-skill-container">
+										<img class="custom-skill" src="./images/expressjs.png" alt="">
+										<span class="label">Express JS</span>
+									</span>
+									<h6 id="skill-name">Express</h6>
+								</li>
+								<li><span class="icon fa-node brands major style4"><span class="label">NodeJS</span></span><h6 id="skill-name">Node.js</h6></li>
+								<li><span class="icon fa-aws brands major style4"><span class="label">AWS</span></span><h6 id="skill-name">AWS</h6></li>
+								<li >
+									<div class="icon major" id="custom-skill-container">
+										<img class="custom-skill" src="./images/postgresql.png" alt="">
+										<!-- <span class="label">PostgreSQL</span> -->
+									</div>
+									<h6 id="skill-name">Postgres</h6>
+								</li>
 							</ul>
 						</div>
 					</section>
 
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
+						<h2 id="project-title">
+							<i class="far fa-circle"></i>
+							Projects
+							<i class="far fa-circle"></i>
+						</h2>
 						<section class="spotlight">
 							<div class="image"><img src="images/python-game.png" alt="" /></div><div class="content">
 								<h2>Python -<br />
@@ -99,30 +125,33 @@
 						<section class="spotlight">
 							<div class="image"><img src="images/dad-jokes.png" alt="" /></div><div class="content">
 								<h2>Javascript | CSS -<br />
-								Dad Jokes</h2>
+								'Dad Jokes'</h2>
 								<p>Mobile-first application that utilizes two API's: <a href="https://icanhazdadjoke.com/api" target="_blank">icanhazdadjoke</a> and <a href="https://avatars.dicebear.com/"  target="_blank">DiceBear-Avatars</a> to create an interactive and self-written animation dad joke generator!</p>
 								<p><a href="http://ec2-3-21-41-231.us-east-2.compute.amazonaws.com:3001">Website</a></p>
 								<p><a href="https://github.com/nguyntyler/DC-Group-Project" target="_blank">GitHub</a></p>
 							</div>
 						</section>
-						<section class="spotlight">
+						<!-- <section class="spotlight">
 							<div class="image"><img src="images/dad-jokes.png" alt="" /></div><div class="content">
 								<h2>Augue eleifend aliquet<br />
 								sed condimentum</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
-						</section>
+						</section> -->
 					</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>
+									<i class="far fa-circle"></i>
+									About Me
+									<i class="far fa-circle"></i>
+								</h2>
+								<p>An avid developer who loves to code in his free time. <br>Perpetually curious and always hoping to learn more. <br><br>Hey! I'm an Atlanta-based developer who is open to remote or on-site work. <br>I am flexible when it comes to either front-end or back-end positions. <br>Throughout my life I've built up a repitoire of skills that I'm <br>looking forward to bringing with me into my future endeavors. <br>I also have a background in Philosophy. <br><br>I'm sure I can put that to use somehow.</p>
 							</header>
-							<ul class="features">
+							<!-- <ul class="features">
 								<li class="icon fa-paper-plane">
 									<h3>Arcu accumsan</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
@@ -147,20 +176,21 @@
 									<h3>Tortor Ut</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
 						<div class="inner">
-							<header>
-								<h2>Arcue ut vel commodo</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							<header id="">
+								<h2>Contact me!</h2>
+								<!-- <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p> -->
 							</header>
 							<ul class="actions stacked">
-								<li><a href="#" class="button fit primary">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li>Email: nguyn.tyler@gmail.com</li>
+								<li>Phone: (706) 767-3478</li>
+								<!-- <li><a href="#" class="button fit">Learn More</a></li> -->
 							</ul>
 						</div>
 					</section>
@@ -168,14 +198,14 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/nguyntyler" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://linkedin.com/in/nguyntyler" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>Tyler Nguyen</li><li>Full-stack developer</li>
 						</ul>
 					</footer>
 
