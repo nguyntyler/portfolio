@@ -45,8 +45,8 @@
 							<h2 id="name">Tyler Nguyen</h2>
 							<p>Hey there. <br>I'm a web developer.</p>
 							<ul class="icons major">
-								<li><a href="https://github.com/nguyntyler" target="_blank" class="icon brands fa-github major"><span class="label">GitHub</span></a></li>
-								<li><a href="https://linkedin.com/in/nguyntyler" target="_blank" class="icon brands fa-linkedin major"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/nguyntyler" target="_blank" class="icon brands fa-github major" id="buttons"><span class="label">GitHub</span></a></li>
+								<li><a href="https://linkedin.com/in/nguyntyler" target="_blank" class="icon brands fa-linkedin major" id="buttons"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<!-- <ul class="actions special">
 								<li><a href="#" class="button primary">Activate</a></li>
@@ -68,31 +68,47 @@
 								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p> -->
 							</header>
 							<ul class="icons major">
-								<li><span class="icon fa-html5 brands major style4"><span class="label">HTML5</span></span><h6 id="skill-name">HTML5</h6></li>
-								<li><span class="icon fa-css3-alt brands major style4"><span class="label">CSS3</span></span><h6 id="skill-name">CSS3</h6></li>
-								<li><span class="icon fa-js-square brands major style4"><span class="label">JS</span></span><h6 id="skill-name">JS</h6></li>
-								<li><span class="icon fa-python brands major style4"><span class="label">Python</span></span><h6 id="skill-name">Python</h6></li>
-								<li><span class="icon fa-react brands major style4"><span class="label">React</span></span><h6 id="skill-name">React</h6></li>
-								<li><span class="icon fa-npm brands major style4"><span class="label">NPM</span></span><h6 id="skill-name">NPM</h6></li>
-								<li><span class="icon fa-sass brands major style4"><span class="label">SASS</span></span><h6 id="skill-name">SASS</h6></li>
+								<li><span class="icon fa-html5 brands major style4"><span class="label">HTML5</span></span><p id="skill-name">HTML5</p></li>
+								<li><span class="icon fa-css3-alt brands major style4"><span class="label">CSS3</span></span><p id="skill-name">CSS3</p></li>
+								<li><span class="icon fa-js-square brands major style4"><span class="label">JS</span></span><p id="skill-name">JS</p></li>
+								<li><span class="icon fa-python brands major style4"><span class="label">Python</span></span><p id="skill-name">PYTHON</p></li>
+								<li><span class="icon fa-react brands major style4"><span class="label">React</span></span><p id="skill-name">REACT</p></li>
+								<li><span class="icon fa-npm brands major style4"><span class="label">NPM</span></span><p id="skill-name">NPM</p></li>
+								<li><span class="icon fa-sass brands major style4"><span class="label">SASS</span></span><p id="skill-name">SASS</p></li>
 							</ul>
 							<ul class="icons major" id="second-row-skills">
 								<!-- <li class="icon style4 major custom-skill-container"></li> -->
 								<li>
+									<span class="icon fa-node brands major style4">
+										<span class="label">NodeJS</span>
+									</span>
+									<p id="skill-name">NODE.JS</p>
+								</li>
+								<li>
+									<span class="icon fa-aws brands major style4">
+										<span class="label">AWS</span>
+									</span>
+									<p id="skill-name">AWS</p>
+								</li>
+								<li>
 									<span class="icon brands major style4" id="custom-skill-container">
 										<img class="custom-skill" src="./images/expressjs.png" alt="">
-										<span class="label">Express JS</span>
+										<span class="label">EXPRESS JS</span>
 									</span>
-									<h6 id="skill-name">Express</h6>
+									<p id="skill-name">EXPRESS</p>
 								</li>
-								<li><span class="icon fa-node brands major style4"><span class="label">NodeJS</span></span><h6 id="skill-name">Node.js</h6></li>
-								<li><span class="icon fa-aws brands major style4"><span class="label">AWS</span></span><h6 id="skill-name">AWS</h6></li>
 								<li >
-									<div class="icon major" id="custom-skill-container">
+									<span class="icon major" id="custom-skill-container">
 										<img class="custom-skill" src="./images/postgresql.png" alt="">
 										<!-- <span class="label">PostgreSQL</span> -->
-									</div>
-									<h6 id="skill-name">Postgres</h6>
+									</span>
+									<p id="skill-name">POSTGRES</p>
+								</li>
+								<li >
+									<span class="icon major" id="custom-skill-container">
+										<img class="custom-skill" src="./images/sequelize.png" alt="">
+									</span>
+									<p id="skill-name">SEQUELIZE</p>
 								</li>
 							</ul>
 						</div>
@@ -118,7 +134,7 @@
 							<div class="image"><img src="images/blackjack-game.png" alt="" /></div><div class="content">
 								<h2>Javascript -<br/>
 									'Blackjack'</h2>
-								<p>Fully functional blackjack game that utilizes DOM manipulation to display cards Javascript to track card values, deck amount, and determines winner.</p>
+								<p>A fully functional blackjack game that utilizes DOM manipulation to display cards Javascript to track card values, deck amount, and determines winner.<br>My role was to create the various win conditions that met the standard Blackjack rules. I also assisted in coding the deck manipulation that showcased the correct cards on-screen along with the total values of the cards.</p>
 								<p><a href="https://github.com/nguyntyler/blackjack" target="_blank">GitHub</a></p>
 							</div>
 						</section>
@@ -126,7 +142,8 @@
 							<div class="image"><img src="images/dad-jokes.png" alt="" /></div><div class="content">
 								<h2>Javascript | CSS -<br />
 								'Dad Jokes'</h2>
-								<p>Mobile-first application that utilizes two API's: <a href="https://icanhazdadjoke.com/api" target="_blank">icanhazdadjoke</a> and <a href="https://avatars.dicebear.com/"  target="_blank">DiceBear-Avatars</a> to create an interactive and self-written animation dad joke generator!</p>
+								<p>Mobile-first application that utilizes two API's: <a href="https://icanhazdadjoke.com/api" target="_blank">icanhazdadjoke</a> and <a href="https://avatars.dicebear.com/"  target="_blank">DiceBear-Avatars</a> to create an interactive and self-written animation dad joke generator!
+								<br>I was responsible for integrating the API's into our project and overseeing the fluidity of the animations while creating some as well. I further improved it by making it responsive from mobile to desktop.</p>
 								<p><a href="http://ec2-3-21-41-231.us-east-2.compute.amazonaws.com:3001">Website</a></p>
 								<p><a href="https://github.com/nguyntyler/DC-Group-Project" target="_blank">GitHub</a></p>
 							</div>
