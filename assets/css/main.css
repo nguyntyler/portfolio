@@ -2188,12 +2188,9 @@ input[type="radio"] + label:before {
 #skill-name {
 	margin-top: 1rem;
 	color: rgb(109, 126, 133);
-}
-
-#skill-name2 {
-	margin-top: 1rem;
-	color: rgb(109, 126, 133);
-	font-size: 0.6rem;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: bold;
 }
 
 #custom-skill-name {
@@ -2202,10 +2199,6 @@ input[type="radio"] + label:before {
 	transform: translateX(-13%);
 }
 
-/* #custom-skill-id {
-	margin: 0;
-	padding: 0 70px 0 0;
-} */
 #custom-skill-container {
 	display: flex;
 	align-items: center;
@@ -2213,11 +2206,10 @@ input[type="radio"] + label:before {
 }
 
 #custom-skill-container .custom-skill {
-	object-fit: contain;
+	object-fit: fill;
 	width: 60%;
 	transform: rotate(45deg);
 	text-align: center;
-	font-size: 0;
 }
 
 .icon.major:before {
@@ -2227,6 +2219,12 @@ input[type="radio"] + label:before {
 	transform: rotate(45deg);
 	display: inline-block;
 	font-size: 1.5em;
+}
+
+#buttons:hover {
+	background-color: #8e8892;
+	color: #badbca;
+	transition: 0.5s;
 }
 
 @media screen and (max-width: 736px) {
@@ -4228,6 +4226,10 @@ body.is-mobile.landing #footer {
 		display: flex;
 		justify-content: space-evenly;
 	} */
+
+	#skill-name {
+		font-size: 0.5rem;
+	}
 
 	#project-title {
 		/* font-size: 2.5rem; */
