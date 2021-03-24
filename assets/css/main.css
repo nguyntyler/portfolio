@@ -2806,10 +2806,10 @@ footer li a {
 }
 
 .container .row .col-xs {
-	width: 180px;
-	height: 180px;
+	width: 140px;
+	height: 140px;
 	/* border: solid; */
-	margin: 10px;
+	margin: 25px;
 	border-radius: 20px;
 }
 
@@ -2833,7 +2833,7 @@ footer li a {
 }
 
 .container .row .col-xs .skill-container img {
-	max-width: 125px;
+	max-width: 75px;
 }
 
 .container .row .border {
