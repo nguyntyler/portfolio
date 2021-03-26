@@ -2841,3 +2841,12 @@ footer li a {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+#about .container .row {
+	display: flex;
+	justify-content: center;
+}
+
+.row .col-lg-12 .title-box h3 {
+	font-size: 72px;
+}
