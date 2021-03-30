@@ -2850,3 +2850,12 @@ footer li a {
 .row .col-lg-12 .title-box h3 {
 	font-size: 72px;
 }
+
+#about .container .row .contact-container {
+	display: flex;
+	justify-content: center;
+}
+
+#about .container .row .contact-container > a {
+	margin: 0 5px;
+}
