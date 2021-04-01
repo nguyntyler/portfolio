@@ -459,7 +459,7 @@
 	opacity: 0.5;
 }
 
-.mouse-cursor {
+/* .mouse-cursor {
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -467,7 +467,7 @@
 	border-radius: 50%;
 	transform: translateZ(0);
 	visibility: hidden;
-}
+} */
 
 /*-------------------------
          GENERAL
