@@ -2742,6 +2742,10 @@ footer li a {
 	.contact-02 .col-md-4:not(:last-child) .info-box {
 		margin-bottom: 3rem;
 	}
+	div .justify-content-md-center {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 @media (max-width: 576px) {
